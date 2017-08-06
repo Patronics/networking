@@ -439,17 +439,4 @@ while 1:
 		console.clear()
 	if data == "help" or data == "?":
 		print ""
-		console.set_font("Arial-BoldMT",16)
-		print "Menu Commands: "
-		console.set_font()
-		time.sleep(0.3)
-		print "Regular   - r | regular | reg"
-		time.sleep(0.3)
-		print "Stablized - a | auto | stable"
-		time.sleep(0.3)
-		print "Exit       - q : exit"
-		time.sleep(0.3)
-		print "Back       - cd : back"
-		time.sleep(0.3)
-		print "Clear      - cls : clear"
-		time.sleep(0.3)
+		colorhelp()
